@@ -1,0 +1,131 @@
+.fa-whatsapp{color: #25d366;}
+.fa-facebook-f,.fa-linkedin-in{color: #1877f2;}
+.fa-instagram{background-image: linear-gradient(45deg , #f58529 ,#dd2a7b ,#8134af ,#515bd4);border-radius: 300px;color: #ffffff;}
+.fa-telegram,.fa-twitter{color: #0088cc;}
+.fa-github{color: #000000;}
+.fa-youtube{color: red;}
+
+.top{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    background-color: white;
+    color: #141414;
+    border-bottom-right-radius: 4rem;
+    border-bottom-left-radius: 4rem;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+}
+#check-box{
+    display: none;
+}
+
+.var{
+    position: absolute;
+    top: 7%;
+    left: 2%;
+}
+.l{
+    left: 7.5%;
+}
+.fa-sun{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: 8.5%;
+    left: 6%;
+    z-index: 1000;
+}
+.social{
+    position: absolute;
+    left: 7%;
+    top: 45%;
+}
+a>i:hover{
+    color: red;
+}
+.fa-moon{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: 8.5%;
+    left: 4.30%;
+    z-index: 1000;
+}
+#check-boxl{
+    left: 4%;
+    top: 6%;
+    width: 60px;
+    height: 25px;
+    background-color: #000000;
+    border-radius: 3rem;
+    z-index: 999;
+    position: absolute;
+}
+#check-boxl::after{
+    content: "";
+    background-color: #ffffff;
+    height: 22.5px;
+    width: 22.5px;
+    border-radius: 50%;
+    position: absolute;
+    left: 1.5px;
+    top: 1.35px;
+    transition: all 0.5s ease 0s;
+}
+#check-box:checked ~ #check-boxl::after{
+    left: 57%;
+}
+
+html{
+    background-color: #141414;
+    color: white;
+    font-family: rakkas;
+}
+
+.pho{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    background-image: url(file_00000000a6c8620ab8d923f863d11f52.png);
+    background-position: top;
+    background-size: cover  ;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    z-index: 998;
+}
+
+.f{
+    position: absolute;
+    left: 22.5%;
+    top: 29%;
+    opacity: 1;
+    z-index: 999;
+}
+.fa-computer{animation: ico 3s ease 1s 1 normal both;}
+.fa-laptop{animation: ila 3s ease 0.5s 1 normal both;}
+.fa-mobile{animation: imo 3s ease 0.4s 1 normal both;}
+.fa-apple{animation: iapp 3s ease 0.6s 1 normal both;}
+.fa-windows{animation: iwin 3s ease 0.8s 1 normal both;}
+.fa-linux{animation: ilin 3s ease 0.9s 1 normal both;}
+.fa-android{animation: iand 3s ease 0.7s 1 normal both;}
+.fa-ubuntu{animation: iubn 3s ease 1.1s 1 normal both;}
+.fa-microsoft{animation: imicro 3s ease 1.5s 1 normal both;}
+
+@keyframes ico {0%{opacity: 0;}60%{opacity: 0;}100%{opacity: 1; translate: -155px 80px;}}
+@keyframes ila {0%{opacity: 0;}60%{opacity: 0;}100%{opacity: 1; translate: 155px 80px;}}
+@keyframes imo {0%{opacity: 0;}60%{opacity: 0;}100%{opacity: 1; translate: 0px 175px;}}
+@keyframes iapp {0%{opacity: 0;}60%{opacity: 0;}100%{opacity: 1; translate: -125px 125px;}}
+@keyframes iwin {0%{opacity: 0;}60%{opacity: 0;}100%{opacity: 1; translate: 125px -125px;}}
+@keyframes ilin {0%{opacity: 0;}60%{opacity: 0;}100%{opacity: 1; translate: -125px -125px;}}
+@keyframes iand {0%{opacity: 0;}60%{opacity: 0;}100%{opacity: 1; translate: 125px 125px;}}
+@keyframes iubn {0%{opacity: 0;}60%{opacity: 0;}100%{opacity: 1; translate: -175px 0px;}}
+@keyframes imicro {0%{opacity: 0;}60%{opacity: 0;}100%{opacity: 1; translate: 175px 0px;}}
+
+h2{
+    width: 30%;
+    background-color: #ffffff;
+    border-radius: 4rem;
+    color: #141414;
+    padding-right: 15px;
+}
